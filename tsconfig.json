@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016" /* Установите версию JavaScript для сгенерированного кода */,
+    "module": "commonjs" /* Укажите, какой код модулей генерировать */,
+    "outDir": "./dist" /* Укажите выходную папку для всех сгенерированных файлов */,
+    "esModuleInterop": true /* Упрощение импорта CommonJS модулей */,
+    "forceConsistentCasingInFileNames": true /* Проверка правильного написания имен файлов в импортах */,
+    "strict": true /* Включить все строгие проверки типов */,
+    "skipLibCheck": true /* Пропустить проверку типов всех .d.ts файлов */
+  },
+  "include": ["src/**/*"] /* Включить все файлы из папки src */,
+  "exclude": ["node_modules"] /* Исключить папку node_modules */
+}
